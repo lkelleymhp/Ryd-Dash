@@ -32,26 +32,7 @@ const routes = [
     path: '/dashboard/alpha',
     component: loadable(() => import('pages/dashboard/alpha')),
   },
-  {
-    path: '/dashboard/beta',
-    component: loadable(() => import('pages/dashboard/beta')),
-    exact: true,
-  },
-  {
-    path: '/dashboard/crypto',
-    component: loadable(() => import('pages/dashboard/crypto')),
-    exact: true,
-  },
-  {
-    path: '/dashboard/gamma',
-    component: loadable(() => import('pages/dashboard/gamma')),
-    exact: true,
-  },
-  {
-    path: '/dashboard/docs',
-    component: loadable(() => import('pages/dashboard/docs')),
-    exact: true,
-  },
+  
 
   // Default Pages
   {
@@ -59,54 +40,6 @@ const routes = [
     component: loadable(() => import('pages/pages/login-alpha')),
     exact: true,
   },
-  {
-    path: '/pages/login-beta',
-    component: loadable(() => import('pages/pages/login-beta')),
-    exact: true,
-  },
-  {
-    path: '/pages/register',
-    component: loadable(() => import('pages/pages/register')),
-    exact: true,
-  },
-  {
-    path: '/pages/lockscreen',
-    component: loadable(() => import('pages/pages/lockscreen')),
-    exact: true,
-  },
-  {
-    path: '/pages/pricing-table',
-    component: loadable(() => import('pages/pages/pricing-table')),
-    exact: true,
-  },
-  {
-    path: '/pages/invoice',
-    component: loadable(() => import('pages/pages/invoice')),
-    exact: true,
-  },
-
-  // Apps
-  {
-    path: '/apps/messaging',
-    component: loadable(() => import('pages/apps/messaging')),
-    exact: true,
-  },
-  {
-    path: '/apps/mail',
-    component: loadable(() => import('pages/apps/mail')),
-    exact: true,
-  },
-  {
-    path: '/apps/profile',
-    component: loadable(() => import('pages/apps/profile')),
-    exact: true,
-  },
-  {
-    path: '/apps/gallery',
-    component: loadable(() => import('pages/apps/gallery')),
-    exact: true,
-  },
-
   
 
   // Layout
@@ -172,54 +105,6 @@ const routes = [
   {
     path: '/charts/c3',
     component: loadable(() => import('pages/charts/c3')),
-    exact: true,
-  },
-
-  // Blog
-  {
-    path: '/blog/feed',
-    component: loadable(() => import('pages/blog/feed')),
-    exact: true,
-  },
-  {
-    path: '/blog/post',
-    component: loadable(() => import('pages/blog/post')),
-    exact: true,
-  },
-  {
-    path: '/blog/add-blog-post',
-    component: loadable(() => import('pages/blog/add-blog-post')),
-    exact: true,
-  },
-
-  // YouTube
-  {
-    path: '/youtube/feed',
-    component: loadable(() => import('pages/youtube/feed')),
-    exact: true,
-  },
-  {
-    path: '/youtube/view',
-    component: loadable(() => import('pages/youtube/view')),
-    exact: true,
-  },
-
-  // GitHub
-  {
-    path: '/github/explore',
-    component: loadable(() => import('pages/github/explore')),
-    exact: true,
-  },
-  {
-    path: '/github/discuss',
-    component: loadable(() => import('pages/github/discuss')),
-    exact: true,
-  },
-
-  // AntDesign
-  {
-    path: '/antd',
-    component: loadable(() => import('pages/antd')),
     exact: true,
   },
 ]
