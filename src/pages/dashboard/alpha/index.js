@@ -67,7 +67,7 @@ class DashboardAlpha extends React.Component {
       <Authorize roles={['admin']} redirect to="/dashboard/beta">
         <Helmet title="Dashboard Alpha" />
         <div className="utils__title utils__title--flat mb-3">
-          <strong className="text-uppercase font-size-16">User Dashboard</strong>
+          <strong className="text-uppercase font-size-16">Users</strong>
         </div>
         <div className="row" />
         <div className="row">
@@ -89,9 +89,39 @@ class DashboardAlpha extends React.Component {
                   pagination={false}
                 />
               </div>
+    
             </div>
           </div>
         </div>
+
+        <div className="utils__title utils__title--flat mb-3">
+          <strong className="text-uppercase font-size-16">Drivers</strong>
+        </div>
+        <div className="row" />
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="card">
+              <div className="card-header">
+                <div className="utils__title">
+                  <strong>All Drivers</strong>
+                </div>
+                <div className="utils__titleDescription">All current drivers are listed</div>
+              </div>
+              <div className="card-body">
+                <Table
+                  className="utils__scrollTable"
+                  scroll={{ x: '100%' }}
+                  columns={tableColumns}
+                  dataSource={fakeTempData}
+                  // dataSource={tableData}
+                  pagination={false}
+                />
+              </div>
+    
+            </div>
+          </div>
+        </div>
+       
        
       </Authorize>
     )
