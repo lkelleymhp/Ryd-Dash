@@ -4,7 +4,7 @@
   "private": true,
   "homepage": ".",
   "scripts": {
-    "start": "react-app-start",
+    "start": "./node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-app-start",
     "test": "react-app-start",
     "lint-staged": "lint-staged",
