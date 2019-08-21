@@ -9,7 +9,7 @@ In your terminal
 Cd into the root directory  
 Open the application in your preferred text editor 
 
-Check that you have npm and Node.js  installed 
+Check that you have either npm or yarn and Node.js  installed 
 -To check if you have Node.js installed, run this command in your terminal:
 node -v 
 - To confirm that you have npm installed you can run this command in your terminal:
@@ -19,9 +19,9 @@ Use a Node.js version manager
 
 ## Running The Application
 
-* Install node modules by running terminal command `yarn install`
-* Run the app `yarn start`
-* For build production files use `yarn build` (build to /build/ folder)
+* Install node modules by running terminal command `npm/yarn install`
+* Run the app `npm/yarn start`
+* For build production files use `npm/yarn build` (build to /build/ folder)
  
 
 ## Reference
