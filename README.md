@@ -14,15 +14,29 @@ Check that you have either npm or yarn and Node.js  installed
 node -v 
 - To confirm that you have npm installed you can run this command in your terminal:
 npm -v
-Use a Node.js version manager
--Node.js has a lots of versions ,. make sure that you are running the latest version of node.js. You can use NVM (Node Version Manager) to get different versions of node. NVM (https://github.com/nvm-sh/nvm) 
 
 ## Running The Application
 
-* Install node modules by running terminal command `npm/yarn install`
-* Run the app `npm/yarn start`
+* Install node modules by running terminal command `yarn install`
+* Run the app `yarn start`
 * For build production files use `npm/yarn build` (build to /build/ folder)
- 
+
+## Errors
+If you run into error such as this when running yarn start
+
+yarn run v1.15.2
+$ react-app-start
+/bin/sh: react-app-start: command not found
+error Command failed with exit code 127.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+##### First: Make sure yarn is installed 
+##### Second: Run yarn in your terminal followed by yarn start
+##### Third: If the error persists run yarn upgrade 
+
+
+
+
 
 ## Reference
 
