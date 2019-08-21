@@ -3,7 +3,7 @@
 This sections provides the following information about how to prepare, install and implement the Ryd Dashboard on your local machine 
 
 Git clone the repo
-  - run git clone “https://git.the.repo"
+  - run git clone “https://github.com/lkelleymhp/Ryd-Dash.git"
 In your terminal 
 
 Cd into the root directory  
