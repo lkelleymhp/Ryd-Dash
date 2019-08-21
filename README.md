@@ -10,8 +10,6 @@ Cd into the root directory
 Open the application in your preferred text editor 
 
 Check that you have either npm or yarn and Node.js  installed 
--To check if you have Node.js installed, run this command in your terminal:
-node -v 
 - To confirm that you have npm installed you can run this command in your terminal:
 npm -v
 
@@ -22,7 +20,7 @@ npm -v
 * For build production files use `npm/yarn build` (build to /build/ folder)
 
 ## Errors
-If you run into error such as this when running yarn start
+If you run into an error such as this when running yarn start
 
 yarn run v1.15.2
 $ react-app-start
